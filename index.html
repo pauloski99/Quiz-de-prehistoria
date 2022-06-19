@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title> Test sobre Arqueología</title>
+    <link rel="stylesheet" href="css/style.css">
+ </head>
+
+ <body>
+     <div id="contenedor">
+         <header>
+             <h1>Exámen sobre la Prehistoria</h1>
+             <p>¿Cuánto sabes sobre el primer período de nuestra historia?</p>
+         </header>
+
+     <section>
+         <div id="resultado"></div>
+         <form name="quizForm" onsubmit="return comprobarRespuestas()">
+
+            <h3>1º) ¿En qué año comenzó el Holoceno?</h3>
+            <input type="radio" name="p1" value = "a">a. Aprox. 12000 a.C<br/>
+            <input type="radio" name="p1" value = "b">b. Aprox. 21000 a.C<br/>
+            <input type="radio" name="p1" value = "c">c. Aprox. 7000 a.C<br/>
+            <input type="radio" name="p1" value = "d">d. Ayer a la hora del cafelito<br/>
+
+            <h3>2º) ¿Qué caracterizaba principalmente al 2º tipo de "sociedades"?</h3>
+            <input type="radio" name="p2" value = "a">a. Caza, recolección y nomadismo<br/>
+            <input type="radio" name="p2" value = "b">b. Cultivo, ganadería y comienzo de asentamientos<br/>
+            <input type="radio" name="p2" value = "c">c. Se iban con las litro al Alamillo<br/>
+            <input type="radio" name="p2" value = "d">d. Sé lo mismo de sociedades prehistóricas que Paula de JavaScript<br/>
+
+            <h3>3º) ¿En qué año se domesticó al perro?</h3>
+            <input type="radio" name="p3" value = "a">a. Aprox. 30000 a.C<br/>
+            <input type="radio" name="p3" value = "b">b. Aprox. 25000 a.C<br/>
+            <input type="radio" name="p3" value = "c">c. Aprox. 40000 a.C<br/>
+            <input type="radio" name="p3" value = "d">d. Aprox. 1000 a.C<br/>
+
+            <h3>4º) Cuál es el nombre correcto?</h3>
+            <input type="radio" name="p4" value = "a">a. Homo Neandertalensis<br/>
+            <input type="radio" name="p4" value = "b">b. Homo Neandertal<br/>
+
+            <h3>5º) ¿Las plantas pueden ser domesticadas?</h3>
+            <input type="radio" name="p5" value = "a">a. ¿¡Pero qué dices!?<br/>
+            <input type="radio" name="p5" value = "b">b. Obvio<br/>
+
+
+            <input type="submit" value="Enviar">
+
+         </form>
+     </section>
+     </div>
+     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+     <script src="script.js"></script>
+    </body>
+ </html>

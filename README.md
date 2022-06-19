@@ -1,2 +1,2 @@
-# Quiz-de-prehistoria
-Quiz breve sobre la prehistoria
+# quiz-js
+ quiz sobre prehistoria
